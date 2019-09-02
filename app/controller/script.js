@@ -18,7 +18,7 @@ class ScriptController extends Controller {
     const { ctx } = this;
     const result = await new Promise((resolve, reject) => {
       process.exec(
-        "cd /home/my_pwd_serve && yarn stop && yarn start",
+        "cd /home/my_pwd_serve && git pull origin master && yarn stop && yarn start",
         function(error) {
           resolve(error);
         }
