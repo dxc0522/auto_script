@@ -13,7 +13,7 @@ module.exports = appInfo => {
   const config = (exports = {
     cluster: {
       listen: {
-        port: 888
+        port: 8888
       }
     }
   });
