@@ -1,6 +1,6 @@
 # auto_script
  
- 1234
+ 12345
 
 ## QuickStart
 
